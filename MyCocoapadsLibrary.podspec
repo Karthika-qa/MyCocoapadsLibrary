@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyCocoapadsLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyCocoapadsLibrary.'
+  s.summary          = 'This is meaningful summary of my pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/karthika/MyCocoapadsLibrary'
+  s.homepage         = 'https://github.com/karthikaqa/cocoapods'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'karthika' => 'qa@woualabs' }
+  s.author           = { 'karthika-qa' => 'qa@woualabs.com' }
   s.source           = { :git => 'https://github.com/karthika/MyCocoapadsLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MyCocoapadsLibrary/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MyCocoapadsLibrary' => ['MyCocoapadsLibrary/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'Resources' => ['MyCocoapadsLibrary/Assets/image.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
