@@ -1,0 +1,27 @@
+{
+  "name": "MyCocoapadsLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of MyCocoapadsLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/karthika/MyCocoapadsLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "karthika": "qa@woualabs"
+  },
+  "source": {
+    "git": "https://github.com/karthika/MyCocoapadsLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MyCocoapadsLibrary/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "MyCocoapadsLibrary/Assets/image.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module MyCocoapadsLibrary {
+  umbrella header "MyCocoapadsLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
